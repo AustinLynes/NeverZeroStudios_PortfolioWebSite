@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html{
+	background:#222222;
+}
 body {
 	line-height: 1;
 }
@@ -45,4 +49,31 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.page{
+	
+}
+.nav-bar{
+	background:linear-gradient( #666666,#222222);
+	padding: 10px;
+	box-sizing:border-box;
+
+}
+.nav-item{
+	padding:5px;
+	box-sizing: border-box;
+	margin:10px; 
+	border:1px solid lightgrey;
+	border-radius: 15px;
+	text-decoration: none;
+	color:lightgrey;
+	background: linear-gradient(#333333)
+}
+.main-container{
+	
+}
+
+.copyright{
+	text-align: center;
 }
